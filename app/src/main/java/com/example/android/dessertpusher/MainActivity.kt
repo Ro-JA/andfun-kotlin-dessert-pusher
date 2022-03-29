@@ -17,6 +17,7 @@
 package com.example.android.dessertpusher
 
 import android.content.ActivityNotFoundException
+import android.graphics.Color
 import android.os.Bundle
 import android.util.Log
 import android.view.Menu
@@ -39,6 +40,7 @@ class MainActivity : AppCompatActivity(), LifecycleObserver {
     private var revenue = 0
     private var dessertsSold = 0
     private lateinit var dessertTimer: DessertTimer
+
 
     // Contains all the views
     private lateinit var binding: ActivityMainBinding
